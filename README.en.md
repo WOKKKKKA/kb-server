@@ -189,7 +189,17 @@ chmod +x start.sh
 
 ## Screenshots
 
-> TODO: main UI, streaming Q&A, doc diff, knowledge graph, stats dashboard
+Main UI (Q&A):
+
+![Main UI](docs/screenshots/01-main.png)
+
+Streaming Q&A:
+
+![Streaming Q&A](docs/screenshots/02-qa-stream.png)
+
+Doc Diff:
+
+![Doc Diff](docs/screenshots/03-doc-diff.png)
 
 ---
 

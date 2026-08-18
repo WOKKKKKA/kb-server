@@ -173,7 +173,17 @@ python kb_server.py
 
 ## 截图
 
-> 待补充：主界面、问答流式输出、文档对比、知识图谱、统计看板
+主界面（问答）：
+
+![主界面](docs/screenshots/01-main.png)
+
+问答流式输出：
+
+![问答流式输出](docs/screenshots/02-qa-stream.png)
+
+文档对比：
+
+![文档对比](docs/screenshots/03-doc-diff.png)
 
 ---
 

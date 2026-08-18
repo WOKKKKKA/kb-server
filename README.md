@@ -133,9 +133,9 @@ python kb_server.py
 | `KB_DOCS_DIR` | `/kb_persist/docs` | 文档存储目录 |
 | `KB_DB_PATH` | `/kb_persist/kb.db` | SQLite 数据库路径 |
 | `OLLAMA_HOST` | `http://localhost:11434` | Ollama 服务地址 |
-| `KB_MODEL_ASK` | `qwen2.5:7b` | 主问答模型 |
-| `KB_MODEL_CHAT` | `qwen2.5:14b` | 聊天模型 |
-| `KB_MODEL_COMPARE` | `qwen2.5:14b` | 对比模型 |
+| `KB_MODEL_ASK` | `Qwen_Qwen3.6-35B-A3B-Q4_K_M.gguf` | 主问答模型 |
+| `KB_MODEL_CHAT` | `Qwen_Qwen3.6-35B-A3B-Q4_K_M.gguf` | 聊天模型 |
+| `KB_MODEL_COMPARE` | `Qwen_Qwen3.6-35B-A3B-Q4_K_M.gguf` | 对比模型 |
 | `KB_GPU_LLM_URL` | `http://localhost:13306/v1` | GPU 加速通道（OpenAI 兼容） |
 | `KB_GPU_LLM_MODEL` | `Qwen_Qwen3.6-35B-A3B-Q4_K_M.gguf` | GPU 通道模型 |
 | `KB_EMBED_MODEL` | `nomic-embed-text` | 向量化模型 |

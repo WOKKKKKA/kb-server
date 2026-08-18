@@ -1,0 +1,19 @@
+# Git
+.git/
+.gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 运行时数据
+kb_persist/
+*.db
+*.log
+
+# 文档（不进入镜像）
+docs/
+README.md
+LICENSE

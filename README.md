@@ -69,8 +69,8 @@ services:
       - ./data:/kb_persist           # SQLite 数据库
     environment:
       - OLLAMA_HOST=http://ollama:11434   # 你的 Ollama 地址
-      - KB_MODEL_ASK=qwen2.5:7b
-      - KB_MODEL_CHAT=qwen2.5:14b
+      - KB_MODEL_ASK=Qwen_Qwen3.6-35B-A3B-Q4_K_M.gguf  # 你的模型
+      - KB_MODEL_CHAT=Qwen_Qwen3.6-35B-A3B-Q4_K_M.gguf # 你的模型
     restart: unless-stopped
 ```
 
